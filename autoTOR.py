@@ -40,15 +40,15 @@ def change():
 
 print('''\033[1;32;40m \n
                 _          _______
-     /\        | |        |__   __|
-    /  \  _   _| |_ ___      | | ___  _ __
-   / /\ \| | | | __/ _ \     | |/ _ \| '__|
-  / ____ \ |_| | || (_) |    | | (_) | |
- /_/    \_\__,_|\__\___/     |_|\___/|_|
+     /\\        | |        |__   __|
+    /  \\  _   _| |_ ___      | | ___  _ __
+   / /\\ \\| | | | __/ _ \\     | |/ _ \\| '__|
+  / ____ \\ |_| | || (_) |    | | (_) | |
+ /_/    \\_\\__,_|\\__\\___/     |_|\\___/|_|
                 V 2.1
 from mrFD
 ''')
-print("\033[1;40;31m http://facebook.com/ninja.hackerz.kurdish/\n")
+print("\\033[1;40;31m http://facebook.com/ninja.hackerz.kurdish/\\n")
 
 os.system("service tor start")
 
@@ -56,7 +56,7 @@ os.system("service tor start")
 
 
 time.sleep(3)
-print("\033[1;32;40m change your  SOCKES to 127.0.0.1:9050 \n")
+print("\\033[1;32;40m change your  SOCKES to 127.0.0.1:9050 \\n")
 os.system("service tor start")
 x = input("[+] time to change Ip in Sec [type=60] >> ")
 lin = input("[+] How many times do you want to change your IP? enter to infinite IP change] >> ") or "0"
